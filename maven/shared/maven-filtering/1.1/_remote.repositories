@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Aug 04 21:54:03 CST 2025
+maven-filtering-1.1.jar>aliyunmaven=
+maven-filtering-1.1.pom>maven2=
+maven-filtering-1.1.jar>maven2=
+maven-filtering-1.1.pom>aliyunmaven=

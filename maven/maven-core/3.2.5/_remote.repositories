@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 19 20:24:48 CST 2024
+maven-core-3.2.5.jar>central=
+maven-core-3.2.5.jar>alimaven=
+maven-core-3.2.5.pom>central=
+maven-core-3.2.5.pom>alimaven=

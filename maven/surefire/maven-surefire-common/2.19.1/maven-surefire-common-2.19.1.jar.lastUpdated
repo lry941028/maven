@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Mar 02 10:16:56 CST 2025
+http\://0.0.0.0/.error=Could not transfer artifact org.apache.maven.surefire\:maven-surefire-common\:jar\:2.19.1 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [scala-tools.org (http\://scala-tools.org/repo-releases, default, releases+snapshots), apache.snapshots (http\://repository.apache.org/snapshots, default, snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1740881815497
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1740881816387
