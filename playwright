@@ -1,0 +1,44 @@
+https://jfrogbin.sgp.dbs.com:8443/artifactory/raw-all/external/playwright.azureedge.net/builds/chromium/1181/chromium-win64.zip
+https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/chromium/1181/chromium-win64.zip
+
+
+
+安装 playwright 客户端库
+执行 pip install playwright
+
+安装很简单，执行 playwright install 即可，
+如果你只需要自动化一种浏览器，可以在参数中指定，比如 playwright install chromium。
+
+playwright 也可以自动化 已经安装好的品牌浏览器，比如Chrome, Edge, Firefox等，后文会有讲解
+
+品牌浏览器往往会自动更新，如果使用Selenium自动化，就需要不断下载新的驱动。
+
+playwright使用自编译浏览器不会自动更新，从而避免驱动和浏览器不匹配的问题。
+
+当然，如果你只是想测试和品牌浏览器的兼容性，就无需上述下载了。
+
+
+
+https://www.byhy.net/etc/playwright/01/
+
+playwright 每个版本都绑定 自编译浏览器的某个版本， 可以通过 官方Release Note 看到对应关系
+https://playwright.dev/python/docs/release-notes
+
+Release notes
+Version 1.54
+New cookie property partition_key in browser_context.cookies() and browser_context.add_cookies(). This property allows to save and restore partitioned cookies. See CHIPS MDN article for more information. Note that browsers have different support and defaults for cookie partitioning.
+
+New option --user-data-dir in multiple commands. You can specify the same user data dir to reuse browsing state, like authentication, between sessions.
+
+playwright codegen --user-data-dir=./user-data
+
+playwright open does not open the test recorder anymore. Use playwright codegen instead.
+
+Browser Versions
+Chromium 139.0.7258.5
+Mozilla Firefox 140.0.2
+WebKit 26.0
+This version was also tested against the following stable channels:
+
+Google Chrome 140
+Microsoft Edge 140
